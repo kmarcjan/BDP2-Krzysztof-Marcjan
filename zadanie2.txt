@@ -1,0 +1,22 @@
+Oracle:
+describe FactInternetSales
+
+MySql:
+describe FactInternetSales
+
+ten sam wynik można uzyskać za pomocą
+SHOW COLUMNS FROM FactInternetSales 
+
+PostgreSQL:
+konsola:
+/d FactInternetSales
+
+kwerenda:
+SELECT 
+   table_name, 
+   column_name, 
+   data_type 
+FROM 
+   information_schema.columns
+WHERE 
+   table_name = 'FactInternetSales';
