@@ -1,0 +1,5 @@
+FORMAT FILE: 
+bcp s287068.dbo.CUSTOMERS_287068 format nul -t "," -c -T -f customers_287068.fmt
+
+BCP IMPORT:
+bcp s287068.dbo.CUSTOMERS_287068 IN CUSTOMERS_287068.csv -t ","  -f customers_287068.fmt -T

@@ -1,0 +1,24 @@
+20210208103232 - File downloaded - Successful
+20210208103232 - File extracted - Successful
+File has: 10008 rows
+20210208103232 - Removed empty lines - Successful
+File has: 1 empty rows
+20210208103232 - Removed duplicates - Successful
+File has: 6 duplicated rows.
+20210208103232 - Removed invalid rows - Successful
+File has: 2 invalid rows
+20210208103232 - Removed records with wrong OrderQuantity rows - Successful
+File has: 1 bad OrderQuantity rows
+20210208103232 - Removing existing rows - Successful
+Already existing rows: 0
+20210208103232 - Removed lines with secret code present - Successful
+File has 13 rows with secret_code column not empty
+20210208103232 - Removed lines with missing comma - Successful
+File has 10 rows with invalid name and surname
+20210208103232 - Splitting column Customer_name to first and last name  - Successful
+20210208103232 - Creating table in db - Successful
+20210208103238 - Inserting data to database table - Successful
+20210208103238 - Updatind table  - Successful
+20210208103239 - Exporting table to .csv file  - Successful
+20210208103239 - Zipping .csv file - Successful
+20210208103248 - Email sent - Successful
